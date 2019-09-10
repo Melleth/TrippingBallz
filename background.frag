@@ -31,6 +31,6 @@ void main() {
     st *= rotate2d(-time);
     st+=.5;
     vec3 col = vec3(box(st, vec2(0.75), 0.1));
-    col *= vec3(sin(time) + 1.0, cos(time) + 1.0, sin(time) + 1.0);
+    col *= vec3(sin(time) +1.0, cos(time) + 1.0, sin(time) + 1.0);
     gl_FragColor = vec4(col, 1.0);
 }
